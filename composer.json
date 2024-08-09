@@ -1,0 +1,39 @@
+{
+    "name": "be-lenka/sap_billing-document-odv4",
+    "description": "Billing documents collectively refer to customer invoices, credit memos, debit memos, pro forma invoices, and the related cancellation documents. This service, which offers both synchronous and asynchronous processing, makes billing document data available through its header, item, and partner entities. You can extend it with custom fields via key user extensibility.      You can use this service to do the following:   - Create billing documents with reference to billable SD documents in your system   - Read most billing document fields at header and item level   - Update specific billing document fields, including custom fields added through extensibility   - Post billing documents to financial accounting to create the corresponding journal entries ",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BeLenka Dev",
+            "homepage": "https://www.belenka.com"
+        }
+    ],
+    "require": {
+"php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+"guzzlehttp/guzzle": "^6.2 || ^7.0"
+ 
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "BeLenka\\SAP\\BillingDocumentODV4\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "BeLenka\\SAP\\BillingDocumentODV4\\Test\\" : "test/" }
+    }
+}
