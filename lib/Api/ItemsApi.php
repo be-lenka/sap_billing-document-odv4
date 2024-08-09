@@ -1131,7 +1131,7 @@ class ItemsApi
         
         
 
-        $resourcePath = '/BillingDocumentItem/{BillingDocument}/{BillingDocumentItem}\';
+        $resourcePath = '/BillingDocumentItem/{BillingDocument}/{BillingDocumentItem}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1847,7 +1847,7 @@ class ItemsApi
         }
 
 
-        $resourcePath = '/BillingDocumentItem/{BillingDocument}/{BillingDocumentItem}\';
+        $resourcePath = '/BillingDocumentItem/{BillingDocument}/{BillingDocumentItem}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

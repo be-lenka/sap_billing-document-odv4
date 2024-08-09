@@ -377,7 +377,7 @@ class HeaderApi
         
         
 
-        $resourcePath = '/BillingDocument/{BillingDocument}\';
+        $resourcePath = '/BillingDocument/{BillingDocument}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1450,7 +1450,7 @@ class HeaderApi
         }
 
 
-        $resourcePath = '/BillingDocument/{BillingDocument}\';
+        $resourcePath = '/BillingDocument/{BillingDocument}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

@@ -1122,7 +1122,7 @@ class HeaderPartnersApi
         
         
 
-        $resourcePath = '/BillingDocumentPartner/{BillingDocument}/{PartnerFunction}\';
+        $resourcePath = '/BillingDocumentPartner/{BillingDocument}/{PartnerFunction}';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

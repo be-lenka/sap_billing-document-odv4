@@ -29,8 +29,8 @@ find "lib/" -type f -name '*.php' -print0 | while IFS= read -r -d '' file
 do
     # Use sed to replace the text '\GuzzleHttp\Utils::jsonEncode' with 'json_encode'
     sed -i 's/\\GuzzleHttp\\Utils::jsonEncode/json_encode/g' "$file"
-    sed -i "/\$resourcePath/s/'{/\\\\'{/g" "$file"
-    sed -i "/\$resourcePath/s/}'/}\\\'/g" "$file"
+    #sed -i "/\$resourcePath/s/'{/\\\\'{/g" "$file"
+    #sed -i "/\$resourcePath/s/}'/}\\\'/g" "$file"
     echo "Replaced in: $file"
 done
 sed -i '/^\s*"php":/c\"php": ">=7.3",' composer.json
